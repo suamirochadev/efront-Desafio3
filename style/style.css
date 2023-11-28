@@ -4,6 +4,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 body{
   background-color: var(--bg-main);
@@ -23,11 +24,18 @@ body{
 }
 .hero {
   background-color: var(--bg-claro);
-  display: flex;
-  justify-content: space-between;
   height: 596px;
-  width: auto;
-  padding: 75px 245px 155px 254px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.hero-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1430px;
 }
 .hero-box_esq{
   max-width: 400px;
@@ -36,13 +44,15 @@ body{
   justify-content: space-evenly;
 }
 .hero-logo{
-  width: 485px;
+  width: 100%;
+  max-width: 485px;
 }
 .hero-text_desc{
   font-size: 19px;
   font-weight: 400;
   line-height: 32px;
-  color: var(--font-desc)
+  color: var(--font-desc);
+  padding: 36px 0 28px 0;
 }
 .hero-btn_cta{
   background-color: var(--bg-button);
@@ -53,8 +63,184 @@ body{
   align-items: center;
   border-radius: 5px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
-.hero-box_dir{
+.hero-illustra{
+  width: 100%;
+  max-width: 600px;
+  min-width:350px;
+}
 
+ /* MAIN INICIO */
+ .cards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:60px;
+}
+.cards-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.card{
+  width: 340px;
+  height: 423px;
+  background-color: white;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
+  border-radius: 16px;
+  cursor: pointer;
+}
+a:hover {
+  /* animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both */
+  transform:scale(1.1);
+}
+.card-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 10px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: black;
+  font-family: 'Merriweather', serif;
+}
+.card-desc{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--font-desc);
+}
+.card-color-one{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-1);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+/* Card 2 */
+.card-color-two{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-2);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+/* Card 3 */
+.card-color-three{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-3);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-four{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-4);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-five{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-5);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-six{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-6);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+  /* MAIN FIM */
+  /* FOOTER INICIO */
+  footer {
+    height: 750px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-claro);
+  }
+  .contact-bolinhas {
+    position: absolute;
+    width: 100%;
+    max-width:1440px;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.contact-form{
+  /* cancela */
+  width: 374px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.contact-title{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  color: black;
+  padding: 80px 0 40px 0;
+}
+.contact-content{
+padding-bottom: 15px;
+position: relative;
+}
+input {
+  width: 410px;
+  height: 65px;
+  padding: 22px 14px 22px 14px;
+  border: none;
+  outline: 0;
+  border-radius: 8px;
+  color: var(--font-desc);
+  font-size: 18px;
+  font-weight: 400;
+}
+input:focus{
+  outline: 0;
+  border: none;
+}
+.contact-icon{
+  position: absolute;
+  top: 40%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+textarea {
+  border-radius: 8px;
+  border: none;
+  outline: 0;
+  border-radius: 8px;
+  color: var(--font-desc);
+  font-size: 18px;
+  font-weight: 400;
+  width: 410px;
+  height: 165px;
+  padding-top: 18px;
+  padding-left: 14px;
+  font-family: 'Lato', sans-serif;;
+  color: var(--font-desc);
 }
