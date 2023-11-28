@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: var(--bg-main);
+  font-family: 'Lato', sans-serif;;
+}
+:root {
+  --bg-claro: #FFF5EE;
+  --bg-main: #F9F9F9;
+  --bg-button: #070572;
+  --bg-card-1: #930000;
+  --bg-card-2: #D6D6D6;
+  --bg-card-3: #27692E;
+  --bg-card-4: #FFFEF4;
+  --bg-card-5: #070572;
+  --bg-card-6: #FFD84E;
+  --font-desc: #555;
+}
+.hero {
+  background-color: var(--bg-claro);
+  display: flex;
+  justify-content: space-between;
+  height: 596px;
+  width: auto;
+  padding: 75px 245px 155px 254px;
+}
+.hero-box_esq{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.hero-logo{
+  width: 485px;
+}
+.hero-text_desc{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--font-desc)
+}
+.hero-btn_cta{
+  background-color: var(--bg-button);
+  color: #fff;
+  padding: 14px 50px 14px 50px;
+  max-width: 243px;
+  height: 50px;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hero-box_dir{
+
+}
