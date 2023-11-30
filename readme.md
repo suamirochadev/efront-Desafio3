@@ -19,6 +19,8 @@ O eFront é um material de ensino de frontend onde é ensinado as tecnologias ma
 
 ## Processo
 - [x]  Você pode assistir a live: [Dia 1](https://www.twitch.tv/suamirochadev/schedule?vodID=1988994432)
+- [x]  Você pode assistir a live: [Dia 2](https://www.twitch.tv/suamirochadev/schedule?vodID=1989547104)
+- [x]  Você pode assistir a live: [Dia 3](https://www.twitch.tv/suamirochadev/schedule?vodID=1990408121)
 
 # Deploy - Site
 [Clique aqui e confira!]()
