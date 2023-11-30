@@ -15,9 +15,9 @@ var span = document.getElementsByClassName("close")[0];
 // Select all <a> elements with class "card"
 const cardLinks = document.querySelectorAll("a.card");
 
-cardLinks.forEach(function(link, index) {
+cardLinks.forEach(function(link) {
   link.addEventListener("click", function(event) {
-    modal.style.display = "block";
+    event.modal.style.display = "block";
   });
 });
 
