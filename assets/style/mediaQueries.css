@@ -1,0 +1,16 @@
+@media (max-width: 1080px) {
+  .modal-parabens {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-content {
+  background-color: var(--bg-claro);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 16px;
+  width: auto;/* Could be more or less, depending on screen size */
+  }
+}

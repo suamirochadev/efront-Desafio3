@@ -1,0 +1,96 @@
+ .cards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:60px;
+}
+.cards-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.card{
+  width: 340px;
+  height: 423px;
+  background-color: white;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
+  border-radius: 16px;
+  cursor: pointer;
+}
+a:hover {
+  /* animation: scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both */
+  transform:scale(1.1);
+}
+.card-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 10px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: black;
+  font-family: 'Merriweather', serif;
+}
+.card-desc{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--font-desc);
+}
+.card-color-one{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-1);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+/* Card 2 */
+.card-color-two{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-2);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+/* Card 3 */
+.card-color-three{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-3);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-four{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-4);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-five{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-5);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.card-color-six{
+  width: 340px;
+  height: 222px;
+  background-color: var(--bg-card-6);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
