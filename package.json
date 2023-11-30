@@ -1,0 +1,13 @@
+{
+  "scripts": {
+       "build": "babel index.js -d dist",
+        "start": "npm run build && node dist/index.js"
+      },
+  "dependencies": {
+    "node": "^21.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5"
+  }
+}
