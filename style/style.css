@@ -66,6 +66,7 @@ body{
   font-weight: 400;
 }
 .hero-illustra{
+  padding: 40px;
   width: 100%;
   max-width: 600px;
   min-width:350px;
@@ -188,8 +189,6 @@ a:hover {
     transform: translate(-50%, -50%);
   }
 .contact-form{
-  /* cancela */
-  width: 374px;
   height: 480px;
   display: flex;
   flex-direction: column;
@@ -208,7 +207,7 @@ padding-bottom: 15px;
 position: relative;
 }
 input {
-  width: 410px;
+  width: 400px;
   height: 65px;
   padding: 22px 14px 22px 14px;
   border: none;
@@ -237,7 +236,7 @@ textarea {
   color: var(--font-desc);
   font-size: 18px;
   font-weight: 400;
-  width: 410px;
+  width: 400px;
   height: 165px;
   padding-top: 18px;
   padding-left: 14px;
@@ -297,3 +296,32 @@ textarea {
 }
 
 /* Modal Fim */
+/* Scroll Bar */
+::-webkit-scrollbar{
+  width: 9px;
+}
+::-webkit-scrollbar-track{
+  background: #6E6E73;
+}
+::-webkit-scrollbar-thumb{
+  background: #F5F5F7;
+  
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1080px) {
+  .modal-parabens {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-content {
+  background-color: var(--bg-claro);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 16px;
+  width: auto;/* Could be more or less, depending on screen size */
+  }
+}
