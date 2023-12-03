@@ -24,7 +24,7 @@ O eFront é um material de ensino de frontend onde é ensinado as tecnologias ma
 - [x]  Você pode assistir a live: [Dia 4](https://www.twitch.tv/suamirochadev/schedule?vodID=1991345800)
 
 # Deploy - Site
-[Clique aqui e confira!](https://efront-desafio-onepage.netlify.app/)
+[Clique aqui e confira!](https://efront-desafio3.netlify.app/)
 
 
 # Autora
